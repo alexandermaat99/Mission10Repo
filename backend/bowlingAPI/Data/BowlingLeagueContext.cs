@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using BowlerAPI.Data;
 using Microsoft.EntityFrameworkCore;
 
 namespace bowlingAPI.Data;
