@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using bowlingAPI.Data;
 
 namespace bowlingAPI.Data;
 

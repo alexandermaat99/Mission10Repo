@@ -1,5 +1,4 @@
-﻿
-using bowlingAPI.Data;
+﻿using bowlingAPI.Data;
 
 namespace bowlingAPI.Data
 {
