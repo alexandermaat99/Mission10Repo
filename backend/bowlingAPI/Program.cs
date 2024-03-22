@@ -10,8 +10,10 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddCors();
+
 builder.Services.AddDbContext<BowlingLeagueContext>(options =>
-    options.UseSqlite(builder.Configuration["ConnectionString:BowlingConnection"])
+options.UseSqlite(builder.Configuration["ConnectionStrings:BowlingConnection"])
 );
 
 builder.Services.AddScoped<IBowlingRepository, EFBowlerRepository>();
